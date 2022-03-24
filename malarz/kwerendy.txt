@@ -1,0 +1,4 @@
+1. SELECT cena FROM farby WHERE kolor = 'niebieski' LIMIT 1
+2. SELECT kolor, cena/pojemnosc FROM farby
+3. SELECT kolor FROM malowanie JOIN farby ON malowanie.id_farby =
+   farby.id_farby WHERE id_pomieszczenia = 3

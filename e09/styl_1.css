@@ -1,0 +1,33 @@
+body {
+    font-family: verdana;
+}
+
+#baner , #stopka {
+    background-color: #4682b4;
+    color: white;
+    padding: 20px;
+    font-size: 120%;
+    text-align: center;
+}
+
+#bloklewy {
+    background-color: #40E0D0;
+    width: 40%;
+    height: 500px;
+}
+
+#blokprawy {
+    background-color: #40E0D0;
+    width: 60%;
+    height: 500px;
+}
+
+img {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #000080;
+}
+
+#bloklewy , #blokprawy {
+    float: left;
+}
